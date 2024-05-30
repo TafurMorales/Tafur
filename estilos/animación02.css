@@ -1,0 +1,82 @@
+article{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: mov02;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:5;
+    
+}
+p{
+    border: 2px dashed red;
+    width: 400px;
+    animation-name: movp;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count:5;
+    animation-direction: alternate;
+}
+@keyframes movp {
+    from{ /*primer fotograma*/
+    margin-left: 100%;
+   
+
+   
+    }
+    to{ /*ultimo fotograma*/
+        margin-left: 0%;
+       
+        width: 400px;
+
+    }
+}
+@keyframes movimiento {
+    from{ /*primer fotograma*/
+    margin-left: 100%;
+    width: 300px;
+    background-color: aquamarine;
+   
+    }
+    to{ /*ultimo fotograma*/
+        margin-left: 0%;
+        width: 200px;
+        
+
+    }
+    
+}
+@keyframes mov02 {
+
+    0%{
+        width: 50px;
+        
+    }
+    25%{
+        width: 100px;
+        height: 100px;
+        margin-top: 300px;
+    }
+    50%{
+        width: 150px;
+        height: 150px;
+        margin-left: 300px;
+        background-color: brown;
+    }
+    75%{
+        width: 200px;
+        height: 200px;
+        margin-top: 0px;
+        border-radius: 50px;
+        background-color: chartreuse;
+    }
+    100%{
+        width: 250px;
+        height:250px;
+        margin-left: 0%;
+        border-radius: 50px;
+        background-color: darkorange;
+        transform: rotate(75deg);
+    }
+}

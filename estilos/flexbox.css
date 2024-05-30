@@ -1,0 +1,29 @@
+:root{
+    --colortexto:#1dd595;
+    --fuentetexto:verdana,arial;
+    --tamañotexto:14px;
+}
+body{
+    color: var(--colortexto);
+    font-family: var(--fuentetexto);
+    font-size: var(--tamañotexto);
+}
+section{
+    background-color: var(--colortexto);
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+
+    
+}
+article{
+    width: 200px;
+    height: 150px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    text-align: center;
+}

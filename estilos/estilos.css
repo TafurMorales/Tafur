@@ -1,0 +1,28 @@
+/*h1{
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    width: 400px;
+    border: 2px dashed red;
+}*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: #444444;
+    border-bottom: 2px dashed red;
+    padding: 10px;
+}
+p span{
+    color: red;
+}
+.titulo{
+    color: blueviolet;
+}
+#logo{
+    border: 3px solid #7873E6ed;
+    border-radius: 50%;
+}
