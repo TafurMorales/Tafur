@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.carouselExample{
+    width: 200px;
+    
+    padding: 5px;
+    text-align: center;
+}
